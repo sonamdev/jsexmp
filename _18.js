@@ -37,9 +37,3 @@ jsuser.greeting= function()
 //unfreeze object else error
 console.log(jsuser.greeting())
 
-jsuser.greeting2= function()
-{
-    console.log(`Hello ${this.name}`)//same object
-
-}
-console.log(jsuser.greeting2())
